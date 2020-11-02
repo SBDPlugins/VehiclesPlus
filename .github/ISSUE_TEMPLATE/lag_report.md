@@ -1,29 +1,22 @@
 ---
-name: 1.12.x Bug Report
-about: Bug reports for 1.12.x servers
-title: ''
-labels: Bug, 1.12.x
+name: Lag Report
+about: If you experience any form of lag while using VehiclesPlus, report here.
+title: 'Lag Report'
+labels: Lag
 assignees: ''
 
 ---
 
-**Describe the bug**  
-A clear and concise description of what the bug is.
+**Describe the lag**  
+What kind of lag is it? (TPS, FPS, CPU, etc)
 
 **To Reproduce**  
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**  
-A clear and concise description of what you expected to happen.
+What causes the lag? What are you doing when you experience the lag?
 
 **Screenshots or Video Recordings**  
 If applicable, add screenshots or video recordings to help explain your problem.
 
-**Server and Plugin Information**  
+**Server and Plugin Informations**
  - Installed plugins:
  - VehiclesPlus Version:
  - Pro or Lite?
