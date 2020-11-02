@@ -16,7 +16,7 @@ What causes the lag? What are you doing when you experience the lag?
 **Screenshots or Video Recordings**  
 If applicable, add screenshots or video recordings to help explain your problem.
 
-**Server and Plugin Informations**
+**Server and Plugin Information**
  - Installed plugins:
  - VehiclesPlus Version:
  - Pro or Lite?
