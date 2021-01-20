@@ -5,6 +5,7 @@ me.legofreak107.vehiclesplus.vehicles.api.libraries.nbtsaving
 me.legofreak107.vehiclesplus.vehicles.api.managers
 me.legofreak107.vehiclesplus.vehicles.api.objects.collision
 me.legofreak107.vehiclesplus.vehicles.api.objects.custominput
+me.legofreak107.vehiclesplus.vehicles.api.objects.damage
 me.legofreak107.vehiclesplus.vehicles.api.objects.spawn
 me.legofreak107.vehiclesplus.vehicles.hitbox
 me.legofreak107.vehiclesplus.vehicles.managers
