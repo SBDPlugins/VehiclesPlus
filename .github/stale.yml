@@ -7,7 +7,7 @@ daysUntilStale: 60
 daysUntilClose: 7
 
 # Label to use when marking an issue as stale
-staleLabel: Won''t Fix
+staleLabel: Won't Fix
 
 # Comment to post when marking an issue as stale. Set to `false` to disable
 markComment: >
