@@ -1,8 +1,8 @@
 ---
-name: 1.16.x Bug Report
-about: Bug reports for 1.16.x servers
+name: Bug Report
+about: Found a bug in the plugin?
 title: ''
-labels: Bug, 1.16.x
+labels: Bug
 assignees: ''
 
 ---
@@ -27,7 +27,7 @@ If applicable, add screenshots or video recordings to help explain your problem.
  - Installed plugins:
  - VehiclesPlus Version:
  - Pro or Lite?
- - Server Platform and Version [eg: **PaperSpigot** 1.16.1 #135]:
+ - Server Platform and Version [eg: **PaperSpigot** 1.x.x #xxx]:
  - Operating System (if applicable):
 
 **Additional context**  
