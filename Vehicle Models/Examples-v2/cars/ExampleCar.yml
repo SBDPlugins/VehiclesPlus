@@ -1,0 +1,241 @@
+className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.BaseVehicle
+name: ExampleCar
+vehicleType: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.types.CarType
+handModel: false
+permissions:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.VehiclePermissions
+  buyPermission: vp.buy.car
+  ridePermission: vp.ride.car
+baseColorList:
+  list0:
+    ==: Color
+    ALPHA: 255
+    RED: 255
+    BLUE: 0
+    GREEN: 0
+  list1:
+    ==: Color
+    ALPHA: 255
+    RED: 0
+    BLUE: 0
+    GREEN: 0
+  list2:
+    ==: Color
+    ALPHA: 255
+    RED: 255
+    BLUE: 255
+    GREEN: 255
+  list3:
+    ==: Color
+    ALPHA: 255
+    RED: 128
+    BLUE: 128
+    GREEN: 128
+  list4:
+    ==: Color
+    ALPHA: 255
+    RED: 192
+    BLUE: 192
+    GREEN: 192
+partList:
+  list0:
+    className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.addons.skins.Skin
+    skin:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        Unbreakable: true
+        Damage: 1
+    color:
+      ==: Color
+      ALPHA: 255
+      RED: 255
+      BLUE: 255
+      GREEN: 255
+    xOffset: 0.0
+    yOffset: 0.0
+    UID: 83479cdf-55fb-4d75-98f6-312b7b38343f
+    zOffset: 0.0
+    isCustomPlaced: false
+  list1:
+    className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.addons.seats.Seat
+    steer: true
+    xOffset: -0.2
+    yOffset: -1.45
+    UID: d13eb53e-bfa8-44e1-bc55-c250fb20880b
+    zOffset: 0.45
+    isCustomPlaced: false
+  list2:
+    className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.addons.seats.Seat
+    steer: false
+    xOffset: -0.2
+    yOffset: -1.45
+    UID: 656f2bd3-39bc-4791-a5d5-1c088ef3c415
+    zOffset: -0.45
+    isCustomPlaced: false
+  list3:
+    className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.addons.seats.Seat
+    steer: false
+    xOffset: -1.0
+    yOffset: -1.45
+    UID: db3fc750-d532-494e-a0ec-66b90fdf6940
+    zOffset: 0.45
+    isCustomPlaced: false
+  list4:
+    className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.addons.seats.Seat
+    steer: false
+    xOffset: -1.0
+    yOffset: -1.45
+    UID: def333eb-b31d-48d1-b9c1-480c7e6eb2d0
+    zOffset: -0.45
+    isCustomPlaced: false
+  list5:
+    className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.addons.Wheel
+    steering: true
+    rotationOffset: 180
+    skin:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        Unbreakable: true
+        Damage: 2
+    color:
+      ==: Color
+      ALPHA: 255
+      RED: 20
+      BLUE: 20
+      GREEN: 20
+    xOffset: 1.8
+    yOffset: 0.0
+    UID: 7b0b9d87-502b-46c7-8b50-9bc285e0a868
+    zOffset: -1.1
+    isCustomPlaced: false
+  list6:
+    className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.addons.Wheel
+    steering: true
+    rotationOffset: 0
+    skin:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        Unbreakable: true
+        Damage: 2
+    color:
+      ==: Color
+      ALPHA: 255
+      RED: 20
+      BLUE: 20
+      GREEN: 20
+    xOffset: 1.8
+    yOffset: 0.0
+    UID: f76324fb-f49b-47af-aa95-1d65ba7b672a
+    zOffset: 1.1
+    isCustomPlaced: false
+  list7:
+    className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.addons.Wheel
+    steering: false
+    rotationOffset: 180
+    skin:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        Unbreakable: true
+        Damage: 2
+    color:
+      ==: Color
+      ALPHA: 255
+      RED: 20
+      BLUE: 20
+      GREEN: 20
+    xOffset: -1.67
+    yOffset: 0.0
+    UID: 20ec3dce-17ac-4756-85b9-f18b206be979
+    zOffset: -1.1
+    isCustomPlaced: false
+  list8:
+    className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.addons.Wheel
+    steering: false
+    rotationOffset: 0
+    skin:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        Unbreakable: true
+        Damage: 2
+    color:
+      ==: Color
+      ALPHA: 255
+      RED: 20
+      BLUE: 20
+      GREEN: 20
+    xOffset: -1.67
+    yOffset: 0.0
+    UID: fa6a79d1-4095-436a-9eed-7481437fe3a4
+    zOffset: 1.1
+    isCustomPlaced: false
+speedSettings:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageUpgradeable
+  base: 100
+  max: 200
+  step: 5
+  upgradeCost: 1000
+fuelTankSettings:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageUpgradeable
+  base: 50
+  max: 100
+  step: 5
+  upgradeCost: 1000
+turningRadiusSettings:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageUpgradeable
+  base: 7
+  max: 15
+  step: 1
+  upgradeCost: 1000
+accelerationSettings:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageUpgradeable
+  base: 50
+  max: 100
+  step: 5
+  upgradeCost: 1000
+hornSettings:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageHorn
+  enabled: true
+  sound: BASS
+  cooldown: 0
+drift: true
+exhaustSettings:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageSmoke
+  enabled: true
+  xOffset: -5.0
+  yOffset: 0.0
+  zOffset: 0.0
+  particleName: SMOKE_LARGE
+canExitWhileMoving: true
+price: 100000.0
+fuelSettings:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageFuel
+  usage: 6.0
+  type: GASOLINE
+health: 100
+trunkSize: 27
+hitbox:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageHitbox
+  length: 3.0
+  width: 2.0
+  height: 1.0
+steeringType: true

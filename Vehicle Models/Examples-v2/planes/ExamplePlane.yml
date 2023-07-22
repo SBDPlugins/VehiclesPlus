@@ -1,0 +1,129 @@
+className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.BaseVehicle
+name: ExamplePlane
+vehicleType: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.types.PlaneType
+handModel: false
+permissions:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.VehiclePermissions
+  buyPermission: vp.buy.plane
+  ridePermission: vp.ride.plane
+baseColorList:
+  list0:
+    ==: Color
+    ALPHA: 255
+    RED: 255
+    BLUE: 0
+    GREEN: 0
+  list1:
+    ==: Color
+    ALPHA: 255
+    RED: 0
+    BLUE: 0
+    GREEN: 0
+  list2:
+    ==: Color
+    ALPHA: 255
+    RED: 255
+    BLUE: 255
+    GREEN: 255
+  list3:
+    ==: Color
+    ALPHA: 255
+    RED: 128
+    BLUE: 128
+    GREEN: 128
+  list4:
+    ==: Color
+    ALPHA: 255
+    RED: 192
+    BLUE: 192
+    GREEN: 192
+partList:
+  list0:
+    className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.addons.skins.Skin
+    skin:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: COLORABLE_ARMOR
+        Unbreakable: true
+        Damage: 3
+    color:
+      ==: Color
+      ALPHA: 255
+      RED: 255
+      BLUE: 255
+      GREEN: 255
+    xOffset: 0.0
+    yOffset: 0.0
+    UID: c165b08b-d282-4529-b704-dba2aaa5e44c
+    zOffset: 0.0
+    isCustomPlaced: false
+  list1:
+    className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.addons.seats.Seat
+    steer: true
+    xOffset: 0.2
+    yOffset: -0.5
+    UID: c5106105-b642-4850-9582-eb4958f24b22
+    zOffset: 0.0
+    isCustomPlaced: false
+  list2:
+    className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.addons.seats.Seat
+    steer: false
+    xOffset: -0.3
+    yOffset: -0.5
+    UID: 736c6cc8-bb80-4171-a80b-e9bcb6277d27
+    zOffset: 0.0
+    isCustomPlaced: false
+speedSettings:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageUpgradeable
+  base: 100
+  max: 200
+  step: 5
+  upgradeCost: 1000
+fuelTankSettings:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageUpgradeable
+  base: 50
+  max: 100
+  step: 5
+  upgradeCost: 1000
+turningRadiusSettings:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageUpgradeable
+  base: 5
+  max: 10
+  step: 1
+  upgradeCost: 1000
+accelerationSettings:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageUpgradeable
+  base: 50
+  max: 100
+  step: 1
+  upgradeCost: 1000
+hornSettings:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageHorn
+  enabled: true
+  sound: BASS
+  cooldown: 0
+drift: false
+exhaustSettings:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageSmoke
+  enabled: true
+  xOffset: -5.0
+  yOffset: 0.0
+  zOffset: 0.0
+  particleName: SMOKE_LARGE
+canExitWhileMoving: true
+price: 100000.0
+fuelSettings:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageFuel
+  usage: 6.0
+  type: GASOLINE
+health: 100
+trunkSize: 0
+hitbox:
+  className: me.legofreak107.vehiclesplus.vehicles.vehicles.objects.base.storage.StorageHitbox
+  length: 2.0
+  width: 1.0
+  height: 1.0
+steeringType: true
